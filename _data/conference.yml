@@ -2,7 +2,7 @@ name: NodeJS Italian Conference
 og_image: http://2018.nodejsconf.it/theme/img/background2.jpg
 slug: nodejsconf
 url: https://2018.nodejsconf.it
-where_when: Verona, November 16th 2018
+where_when: Verona, November 16th 2018 - Conference
 year: 2018
 since: 2014
 call_for_paper_url: https://goo.gl/forms/rHSOn88FAz9992g32
@@ -10,3 +10,15 @@ call_for_paper: true
 talks_available: false
 schedule_available: false
 training_available: false
+
+
+iubenda:
+  cookiePolicyId: 93825139
+  siteId: 1123530
+  lang: it
+  enableRemoteConsent: true
+  localConsentDomain: nodejsconf.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-MW2P2QN
