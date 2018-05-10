@@ -28,7 +28,7 @@ css:
       file: nodejsconf.css
       images: _frontend/frontsize/nodejsconf-2018/img/**/*.*
       merge: true
-      name: reactjsday
+      name: nodejsconf
       path: _frontend/temp/
       stylestats: false
     -

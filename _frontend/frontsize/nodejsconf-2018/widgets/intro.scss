@@ -42,6 +42,7 @@
     font-family: $font-family-header;
     font-size: 38px;
     margin-top: s(4);
+    color: #ffffff;
 
 
     @include media ('>=mobile-large') {
@@ -67,6 +68,7 @@
   @include element ('where-when') {
     @include where-when;
     font-size: 40px;
+    color: #ffffff;
 
     @include media ('<tablet-small') {
       font-size: 20px;
