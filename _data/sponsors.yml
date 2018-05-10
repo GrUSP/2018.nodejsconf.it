@@ -75,12 +75,6 @@ silver:
     - 2 free tickets
   max: 16
   list:
-    -
-       url: http://www.ideato.it/?utm_source=angular
-       image: ideato.svg
-     -
-       url: https://www.workwave.com/?utm_source=angular
-       image: workwave.svg
               
 bronze:
   price: € 300
