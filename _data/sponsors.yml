@@ -24,7 +24,6 @@ main:
 diamond:
   price: € 5,000
   offer:
-    - 1 dedicated session (30 mins max)
     - Your logo on conference website
     - Your logo on conference rollups
     - Your own rollup in room
