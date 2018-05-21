@@ -9,8 +9,9 @@ main:
   price: € 10,000
   offer:
     - 1 dedicated session (30 mins max)
-    - Access to opt-in attendees list
     - One direct email marketing campaign
+    - Access to opt-in attendees list
+    - Your logo in pre-event communications
     - Your logo on conference website
     - Your logo on conference rollups
     - Your own rollup in room
@@ -24,6 +25,8 @@ main:
 diamond:
   price: € 5,000
   offer:
+    - Access to opt-in attendees list
+    - Your logo in pre-event communications
     - Your logo on conference website
     - Your logo on conference rollups
     - Your own rollup in room
@@ -37,6 +40,7 @@ diamond:
 platinum:
   price: € 3,000
   offer:
+    - Your logo in pre-event communications
     - Your logo on conference website
     - Your logo on conference rollups
     - Your own rollup in room
@@ -50,6 +54,7 @@ platinum:
 gold:
   price: € 1,000
   offer:
+    - Your logo in pre-event communications
     - Your logo on conference website
     - Your logo on conference rollups
     - Your own rollup in room
@@ -61,6 +66,7 @@ gold:
 silver:
   price: € 500
   offer:
+    - Your logo in pre-event communications
     - Your logo on conference website
     - Your logo on conference rollups
     - Your own flyer and/or gadget in folder (provided by you)
@@ -77,6 +83,7 @@ silver:
 bronze:
   price: € 300
   offer:
+    - Your logo in pre-event communications
     - Your logo on conference website
     - 2 tickets with 10% discount
   max: 64
