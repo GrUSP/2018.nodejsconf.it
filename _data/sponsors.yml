@@ -71,7 +71,7 @@ silver:
     - Your logo on conference rollups
     - Your own flyer and/or gadget in folder (provided by you)
     - 3 tickets with 10% discount
-  max: 32
+  max: 16
   list:
     -
        url: http://www.ideato.it/?utm_source=nodejsconf
@@ -86,5 +86,5 @@ bronze:
     - Your logo in pre-event communications
     - Your logo on conference website
     - 2 tickets with 10% discount
-  max: 64
+  max: 32
   list:
