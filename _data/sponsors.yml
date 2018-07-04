@@ -62,6 +62,9 @@ gold:
     - 3 tickets with 15% discount
   max: 8
   list:
+    -
+        url: https://www.workwave.com/?utm_source=nodejsconf
+        image: workwave.svg
 
 silver:
   price: € 500
@@ -76,9 +79,6 @@ silver:
     -
        url: http://www.ideato.it/?utm_source=nodejsconf
        image: ideato.svg
-    -
-       url: https://www.workwave.com/?utm_source=nodejsconf
-       image: workwave.svg
 
 bronze:
   price: € 300
