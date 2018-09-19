@@ -1,6 +1,30 @@
 -
-  speaker_id:
-  title:
-  keynote:
+  speaker_id: faduma-mohammed
+  title: GraphQL and me
   extract: >
+    You've properly heard the hype surrounding GraphQL. But what kind of problems can it solve? This is the story of
+    why we chose GraphQL to power the Vogue and GQ websites and the problems it help solve.  You'll learn about some of
+    the ways in which GraphQL can help improve your application and understand why you might implement it.
 
+-
+  speaker_id: matteo-collina
+  title: The State of Node.js Core
+  extract: >
+    What's the current state of Node.js core? What's new? What's coming? How is the project doing? This talk will dive
+    deep into the project and highlight everything that is happening.
+
+-
+  speaker_id: matthias-dugue
+  title: Node.js as a feature-flipping supervisor through Git
+  extract: >
+    Let's imagine you run a complex service or app, and you have to manage a backend solution that grows fast.
+    You have to find a way to handle the releases cycle. It means taking care of restarting services,
+    migrating databases, expiring caches, as well as notifying client's apps for the update.
+    Now, add a new layer of complexity: to quickly try-and-fail, you also use a feature-flipping architecture that
+    allows you to run tests on various client segments. Even for a limited amount of time.
+    And, because your team is great, you deliver several times a day.
+    To address all those needs, Node.js is a great candidate. Properly hooked behind a Git repository that will
+    allow you to push your codebase and configs, we can conceive a modular system to manage your deployment process.
+    Based on Streams and Functional Programming, we will present a global solution capable to deliver your codebase
+    and reprocess its configuration on-the-fly. With a simple git push.
+    Let's see what a modern, robust, and distributed deployment platform should look like.

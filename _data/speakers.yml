@@ -2,10 +2,27 @@
 # img/conf-name/speaker/file.jpg
 # description is actually the company the speaker is working for
 list:
-#  -
-#    id:
-#    description:
-#    image:
-#    first_name:
-#    last_name:
-#    twitter:
+  -
+    id: faduma-mohammed
+    description:
+    image: faduma-mohammed.jpg
+    first_name: Faduma
+    last_name: Mohammed
+    twitter: FadumaFaralacag
+
+  -
+    id: matteo-collina
+    description:
+    image: matteo-collina.jpg
+    first_name: Matteo
+    last_name: Collina
+    twitter: matteocollina
+
+  -
+    id: matthias-dugue
+    description:
+    image: matthias-dugue.jpg
+    first_name: Matthias
+    last_name: Dugué
+    twitter: m4d_z
+
