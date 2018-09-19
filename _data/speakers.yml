@@ -3,6 +3,14 @@
 # description is actually the company the speaker is working for
 list:
   -
+    id: anna-henningsen
+    description:
+    image: anna-henningsen.jpg
+    first_name: Anna
+    last_name: Henningsen
+    twitter: addaleax
+
+  -
     id: faduma-mohammed
     description:
     image: faduma-mohammed.jpg

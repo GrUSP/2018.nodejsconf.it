@@ -1,4 +1,14 @@
 -
+  speaker_id: anna-henningsen
+  title: "Node.js: The Road to Workers"
+  extract: >
+    Workers, and threading support in general, have been one of the most frequently requested features for Node.js over
+    the last years. Finally, the finishing line is in sight and we’re pretty excited to have experimental support
+    available! This talk will tell you everything around the API, features, use cases & alternatives, our roadmap,
+    and the technical and social challenges that we had to overcome to make it happen, as well as an overview over
+    exciting changes in Node.js 10 & 11!
+
+-
   speaker_id: faduma-mohammed
   title: GraphQL and me
   extract: >
