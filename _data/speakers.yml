@@ -34,3 +34,10 @@ list:
     last_name: Dugué
     twitter: m4d_z
 
+  -
+    id: tomas-della-vedova
+    description:
+    image: tomas-della-vedova.jpg
+    first_name: Tomas
+    last_name: Della Vedova
+    twitter: delvedor

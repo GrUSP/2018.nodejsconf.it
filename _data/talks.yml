@@ -38,3 +38,17 @@
     Based on Streams and Functional Programming, we will present a global solution capable to deliver your codebase
     and reprocess its configuration on-the-fly. With a simple git push.
     Let's see what a modern, robust, and distributed deployment platform should look like.
+
+-
+  speaker_id: tomas-della-vedova
+  title: Monoliths always pay their debts
+  extract: >
+    You have just created a new small and disruptive startup or you are an enterprise building a new product. To speed
+    up the initial development you have built a monolith but few months after your product has become widely adopted.
+    Now you have a problem. Your server is not ready to handle all that load and you need to solve the scalability
+    issue quickly. Too bad that you have developed your app as a single monolith since the beginning, now split it to
+    microservices would be very hard because of cross-dependencies and mixed logic.
+    Enter Fastify, a new web framework for Node.js. Fastify is focused on providing the best developer experience with
+    the least overhead through a powerful plugin architecture.
+    In this talk, we will build a new disruptive startup with Fastify, starting with a monolith and later migrate to a
+    microservices architecture, by building a future-proof codebase.
