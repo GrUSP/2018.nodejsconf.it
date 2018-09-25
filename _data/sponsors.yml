@@ -63,8 +63,12 @@ gold:
   max: 8
   list:
     -
-        url: https://www.workwave.com/?utm_source=nodejsconf
-        image: workwave.svg
+      url: https://www.workwave.com/?utm_source=nodejsconf
+      image: workwave.svg
+    -
+      url: https://remote-developer.io/?utm_source=nodejsconf
+      image: remote-developer.svg
+
 
 silver:
   price: € 500
