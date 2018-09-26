@@ -1,4 +1,14 @@
 -
+  speaker_id: alex-casalboni
+  title: Porting your Node.js app to serverless in 30 minutes
+  extract: >
+    This live-coding session will guide you through the process of migrating an existing Express application to AWS
+    Lambda. We will analyze the existing application, decompose it into individual microservices, adapt authentication,
+    frontend, tests, and data model, and finally deploy everything to the Cloud. Throughout this step-by-step process,
+    you will learn the benefits of serverless and how it will change the way you think of scalability, availability,
+    security, infrastructure management, and cost optimization.
+
+-
   speaker_id: anna-henningsen
   title: "Node.js: The Road to Workers"
   extract: >

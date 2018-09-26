@@ -3,6 +3,14 @@
 # description is actually the company the speaker is working for
 list:
   -
+    id: alex-casalboni
+    description:
+    image: alex-casalboni.jpg
+    first_name: Alex
+    last_name: Casalboni
+    twitter: alex_casalboni
+
+  -
     id: anna-henningsen
     description:
     image: anna-henningsen.jpg
