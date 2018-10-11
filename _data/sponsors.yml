@@ -81,8 +81,12 @@ silver:
   max: 16
   list:
     -
-       url: http://www.ideato.it/?utm_source=nodejsconf
-       image: ideato.svg
+      url: http://www.ideato.it/?utm_source=nodejsconf
+      image: ideato.svg
+
+    -
+      url: https://www.nearform.com//?utm_source=nodejsconf
+      image: nearform.svg
 
 bronze:
   price: € 300
