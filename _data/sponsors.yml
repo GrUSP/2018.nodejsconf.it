@@ -81,6 +81,10 @@ silver:
   max: 16
   list:
     -
+      url: https://aws.amazon.com?utm_source=nodejsconf
+      image: aws.svg
+
+    -
       url: http://www.ideato.it/?utm_source=nodejsconf
       image: ideato.svg
 
