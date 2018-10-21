@@ -6,81 +6,67 @@ title: Schedule
 
   {% include schedule/intro.html date='November 16th' %}
 
-  <div class="schedule" data-dates="1-25,5-12,1-24">
+  <div class="schedule" data-dates="11-16">
     <table class="schedule__table">
       <thead>
-        {% include schedule/header.html tracks='1' %}
+      {% include schedule/header.html tracks='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='08:30 - 09:20' title='Check-in' fill='true' %}
-        {% include schedule/event.html time='09:20 - 09:30' title='GrUSP presentation' fill='true' %}
-        {% include schedule/event.html time='09:30 - 09:40' title='FEVR & ReactJS Day presentation' fill='true' %}
+      {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
+      {% include schedule/event.html time='9.45-10.00' title='Presentazione GrUSP' fill='true' %}
 
-        {% include schedule/talk.html time='09:40 - 10:25' title='setState demystified' keynote='true' fill='true' %}
-        {% include schedule/talk.html time='10:25 - 10:55' title='Why you should (not) build a reusable components library for your company' fill='true' %}
+      {% include schedule/talk.html title='The State of Node.js Core' time='10.05-10.30' fill='true' %}
+      {% include schedule/talk.html title='GraphQL and me' time='10.35-11.00' fill='true' %}
 
-        {% include schedule/pause.html time='10:55 - 11:15' title='Short break' icon="coffee" fill='true' %}
+      {% include schedule/pause.html time='11.00-11.30' title='Coffee break' icon="coffee" fill='true' %}
 
-        {% include schedule/talk.html time='11:15 - 11:45' title='Introduction To Elm For React Developers' fill='true' %}
-        {% include schedule/talk.html time='11:45 - 12:15' title='On the way to making the React components more reusable' fill='true' %}
-        {% include schedule/talk.html time='12:15 - 12:45' title='If it quacks like React and renders like React, is it React?' fill='true' %}
+      {% include schedule/talk.html title='Node.js: The Road to Workers' time='11.30-12.20' fill='true' %}
+      {% include schedule/talk.html title='Monoliths always pay their debts' time='12.25-12.50' fill='true' %}
 
-        {% include schedule/pause.html time='12:45 - 14:20' title='Lunch + Lightning talks' icon="food" fill='true' %}
+      {% include schedule/pause.html time='12.50-14.30' title='Lunch & Lightning Talks' icon="food" fill='true' %}
 
-        {% include schedule/talk.html time='14:20 - 14:55' title='Introduction to ReactVR - because 2D is not good enough!' fill='true' %}
-        {% include schedule/talk.html time='14:55 - 15:25' title='The story of storybook' fill='true' %}
-        {% include schedule/talk.html time='15:25 - 15:55' title='Shared Element Transition with React Native' fill='true' %}
-        {% include schedule/talk.html time='15:55 - 16:25' title='Build Your React Application with StyledComponents and FlexBox' fill='true' %}
+      {% include schedule/talk.html title='Event loop tales on I/O bound Node.js applications' time='14.30-15.20' fill='true' %}
+      {% include schedule/talk.html title='Porting your Node.js app to serverless in 30 minutes' time='15.25-16.15' fill='true' %}
 
-        {% include schedule/pause.html time='16:25 - 16:55' title='Coffee break' icon="coffee" fill='true' %}
+      {% include schedule/pause.html time='16.15-16.45' title='Coffee break' icon="coffee" fill='true' %}
 
-        {% include schedule/talk.html time='16:55 - 17:25' title='React state management in a GraphQL era' fill='true' %}
-        {% include schedule/talk.html time='17:25 - 17:55' title='Styling Components for React UI Kits' fill='true' %}
+      {% include schedule/talk.html title='Node.js as a feature-flipping supervisor through Git' time='16.45-17.35' fill='true' %}
 
-        {% include schedule/talk.html time='17:55 - 18:25' title='Mutable or Immutable? Why not both!' keynote='true' fill='true' %}
+      {% include schedule/pause.html time='17.35-17.45' title='Bye bye from GrUSP' fill='true' %}
+      {% include schedule/pause.html time='17.45-19.00' title='Happy Hour' icon="bar" fill='true' %}
 
-        {% include schedule/pause.html time='18:25 - 18:35' title='Bye bye from GrUSP & FEVR' icon="bar" fill='true' %}
-
-        {% include schedule/pause.html time='18:40 - 20:00' title='Happy hour!' icon="bar" fill='true' %}
       </tbody>
     </table>
   </div>
 
-  <div class="schedule schedule--mobile" data-dates="5-12,1-24,1-25">
+  <div class="schedule schedule--mobile" data-dates="11-16">
     <table class="schedule__table">
       <thead>
-        {% include schedule/header.html track='1' %}
+      {% include schedule/header.html track='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='08:30 - 09:20' title='Check-in' fill='true' %}
-        {% include schedule/event.html time='09:20 - 09:30' title='GrUSP presentation' fill='true' %}
-        {% include schedule/event.html time='09:30 - 09:40' title='FEVR & ReactJS Day presentation' fill='true' %}
+      {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
+      {% include schedule/event.html time='9.45-10.00' title='Presentazione GrUSP' fill='true' %}
 
-        {% include schedule/talk.html time='09:40 - 10:25' title='setState demystified' keynote='true' fill='true' %}
-        {% include schedule/talk.html time='10:25 - 10:55' title='Why you should (not) build a reusable components library for your company' fill='true' %}
+      {% include schedule/talk.html title='The State of Node.js Core' time='10.05-10.30' fill='true' %}
+      {% include schedule/talk.html title='GraphQL and me' time='10.35-11.00' fill='true' %}
 
-        {% include schedule/pause.html time='10:55 - 11:15' title='Short break' icon="coffee" fill='true' %}
+      {% include schedule/pause.html time='11.00-11.30' title='Coffee break' icon="coffee" fill='true' %}
 
-        {% include schedule/talk.html time='11:15 - 11:45' title='Introduction To Elm For React Developers' fill='true' %}
-        {% include schedule/talk.html time='11:45 - 12:15' title='On the way to making the React components more reusable' fill='true' %}
-        {% include schedule/talk.html time='12:15 - 12:45' title='If it quacks like React and renders like React, is it React?' fill='true' %}
+      {% include schedule/talk.html title='Node.js: The Road to Workers' time='11.30-12.20' fill='true' %}
+      {% include schedule/talk.html title='Monoliths always pay their debts' time='12.25-12.50' fill='true' %}
 
-        {% include schedule/pause.html time='12:45 - 14:20' title='Lunch + Lightning talks' icon="food" fill='true' %}
+      {% include schedule/pause.html time='12.50-14.30' title='Lunch & Lightning Talks' icon="food" fill='true' %}
 
-        {% include schedule/talk.html time='14:20 - 14:55' title='Introduction to ReactVR - because 2D is not good enough!' fill='true' %}
-        {% include schedule/talk.html time='14:55 - 15:25' title='The story of storybook' fill='true' %}
-        {% include schedule/talk.html time='15:25 - 15:55' title='Shared Element Transition with React Native' fill='true' %}
-        {% include schedule/talk.html time='15:55 - 16:25' title='Build Your React Application with StyledComponents and FlexBox' fill='true' %}
+      {% include schedule/talk.html title='Event loop tales on I/O bound Node.js applications' time='14.30-15.20' fill='true' %}
+      {% include schedule/talk.html title='Porting your Node.js app to serverless in 30 minutes' time='15.25-16.15' fill='true' %}
 
-        {% include schedule/pause.html time='16:25 - 16:55' title='Coffee break' icon="coffee" fill='true' %}
+      {% include schedule/pause.html time='16.15-16.45' title='Coffee break' icon="coffee" fill='true' %}
 
-        {% include schedule/talk.html time='16:55 - 17:25' title='React state management in a GraphQL era' fill='true' %}
-        {% include schedule/talk.html time='17:25 - 17:55' title='Styling Components for React UI Kits' fill='true' %}
-        {% include schedule/talk.html time='17:55 - 18:25' title='Mutable or Immutable? Why not both!' fill='true' %}
+      {% include schedule/talk.html title='Node.js as a feature-flipping supervisor through Git' time='16.45-17.35' fill='true' %}
 
-        {% include schedule/pause.html time='18:25 - 18:35' title='Bye bye from GrUSP & FEVR' icon="bar" fill='true' %}
-
-        {% include schedule/pause.html time='18:40 - 20:00' title='Happy hour!' icon="bar" fill='true' %}
+      {% include schedule/pause.html time='17.35-17.45' title='Bye bye from GrUSP' fill='true' %}
+      {% include schedule/pause.html time='17.45-19.00' title='Happy Hour' icon="bar" fill='true' %}
       </tbody>
     </table>
   </div>
