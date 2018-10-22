@@ -85,6 +85,10 @@ silver:
       image: aws.svg
 
     -
+      url: https://www.brumbrum.it/?utm_source=nodejsconf
+      image: brumbrum.svg
+
+    -
       url: http://www.ideato.it/?utm_source=nodejsconf
       image: ideato.svg
 
