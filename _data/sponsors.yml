@@ -85,7 +85,7 @@ silver:
       image: aws.svg
 
     -
-      url: https://www.brumbrum.it/?utm_source=nodejsconf
+      url: https://www.brumbrum.it/?utm_source=nodejsconf&utm_medium=referral
       image: brumbrum.svg
 
     -
