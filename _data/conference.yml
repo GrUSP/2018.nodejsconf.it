@@ -9,9 +9,8 @@ since: 2014
 call_for_paper_url: https://goo.gl/forms/rHSOn88FAz9992g32
 call_for_paper: false
 talks_available: true
-schedule_available: false
+schedule_available: true
 training_available: false
-
 
 iubenda:
   cookiePolicyId: 93825139
