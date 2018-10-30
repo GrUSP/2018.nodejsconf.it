@@ -93,8 +93,12 @@ silver:
       image: ideato.svg
 
     -
-      url: https://www.nearform.com//?utm_source=nodejsconf
+      url: https://www.nearform.com/?utm_source=nodejsconf
       image: nearform.svg
+
+    -
+      url: https://www.opencontent.it/?utm_source=nodejsconf
+      image: opencontent.svg
 
 bronze:
   price: € 300
