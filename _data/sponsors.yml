@@ -100,6 +100,10 @@ silver:
       url: https://www.opencontent.it/?utm_source=nodejsconf
       image: opencontent.svg
 
+    -
+      url: https://www.toptal.com/?utm_source=nodejsconf
+      image: toptal.svg
+
 bronze:
   price: € 300
   offer:
