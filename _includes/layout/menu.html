@@ -17,7 +17,7 @@
         <div class="menu__register menu__register--sold-out">
           sold out
         </div>
-      {% else %}
+      {% elsif site.data.tickets.tickets_available %}
         <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__register">
           Get<br>
           tickets<br>
@@ -53,7 +53,7 @@
             <span class="menu__button menu__button--sold-out">
               Tickets
             </span>
-          {% else %}
+          {% elsif site.data.tickets.tickets_available %}
             <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__button">
               Tickets
             </a>

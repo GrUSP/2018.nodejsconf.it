@@ -37,7 +37,7 @@
                   <div class="button button--left button--footer button--sold-out">
                     Tickets sold out
                   </div>
-                {% else %}
+                {% elsif site.data.tickets.tickets_available %}
                   <a href="{{ site.data.tickets.url }}" class="button button--footer button--left">Tickets</a>
                 {% endif %}
               </div>
