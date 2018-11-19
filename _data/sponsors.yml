@@ -3,7 +3,7 @@
 # img/sponsors/guide.pdf
 
 pdf: grusp_2017.pdf
-call_for_sponsor: true
+call_for_sponsor: false
 
 main:
   price: € 10,000
